@@ -4,7 +4,7 @@ const app = getApp()
 
 Page({
   data: {
-    motto: 'JIAYOUJIAYOU',
+    motto: 'ZHALIE',
 
     userInfo: {},
     hasUserInfo: false,

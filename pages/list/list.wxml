@@ -1,0 +1,21 @@
+<!--list.wxml-->
+<view class="list">
+<!--文章列表模板 begin-->
+<template name="items">
+  <navigator url="../../pages/detial/detial?id={{id}}" hover-class="navigator-hover">
+    <view><image src="{{img}}" class="in-img" background-size="cover"              model="scaleToFill"></image></view>
+    <view class="infos">
+      <view class="title">{{title}}</view>
+      <view class="date">{{cTime}}</view>
+    </view>
+  </navigator>
+</template>
+<!--文章列表模板 end-->
+
+<!--列表循环输出 begin-->
+<view wx:for="{{newsList}}" class="newsList">
+  <template is="items" data="{{...item}}" />
+</view>
+<!--列表循环输出 end-->
+
+</view>

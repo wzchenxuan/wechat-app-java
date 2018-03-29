@@ -1,0 +1,50 @@
+<!--pages/mine/mine.wxml-->
+<view class="container">
+    <view class="mine-head">
+        <view class="mine-head-right">编辑</view>
+        <view class="mine-head-photo center">
+            <image src="../../images/mines/headImage.jpg" />
+        </view>
+        <view class="username center">YeZi</view>
+        <view class="username-xinxi page-flex">
+            <view class="mine-lt">
+                <view class="mine-lt-times">5小时06分钟</view>
+                <view class="mine-lt-time">注册时长</view>
+            </view>
+            <view class="cline">|</view>
+            <view class="mine-rt">
+                <view class="mine-rt-lt ">
+                    <view class="mine-account">5</view>
+                    <view class="mine-account-1">浙师币</view>
+                </view>
+            </view>
+            <view class="jiantou">></view>
+        </view>
+    </view>
+    <view class="mine-bd">
+        <view class="mine-bd-items page-flex" bindtap="tomyNews">
+            <view class="mine-images">
+                <image src="../../images/mines/news.png" />
+            </view>
+            <view class="list">我的消息</view>
+            <view class="mine-bd-kongge"></view>
+            <view class="mine-bd-jiantou">></view>
+        </view>
+        <view class="mine-bd-items page-flex">
+            <view class="mine-images">
+                <image src="../../images/mines/fans.png" />
+            </view>
+            <view class="list">关注·粉丝</view>
+            <view class="mine-bd-kongge"></view>
+            <view class="mine-bd-jiantou">></view>
+        </view>
+        <view class="mine-bd-items page-flex">
+            <view class="mine-images">
+                <image src="../../images/mines/sets.png" />
+            </view>
+            <view class="list">设置</view>
+            <view class="mine-bd-kongge"></view>
+            <view class="mine-bd-jiantou">></view>
+        </view>
+    </view>
+</view>

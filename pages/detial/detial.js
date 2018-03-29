@@ -1,14 +1,14 @@
-//index.js
-//获取应用实例
-const app = getApp()
+//about.js
 
 Page({
   data: {
-    motto: 'Hello World',
-    userInfo: {},
-    hasUserInfo: false,
-    canIUse: wx.canIUse('button.open-type.getUserInfo')
+    info:{id:1,
+          title:"This is the first",
+          img:"../../images/1.jpg",
+          cTime:"2018-03-18 12:05",
+          content: "转自微博，侵删朋友在淘宝买了十只2.5两的大闸蟹，结果收到1.5两不到。然后他从市场上买了十二只5两，拍照上去，说卖家的大闸蟹又好又大，满膏满油，分量足，还多送两只，五星好评，加文字。没多久，那家店就关闭了。因为其他买家都投诉自己买的远不如他。"}
   },
+   
   //事件处理函数
   bindViewTap: function () {
     wx.navigateTo({
@@ -50,9 +50,26 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
+  },
+
+  /**
+   * 页面相关事件处理函数--监听用户下拉动作
+   */
+  onPullDownRefresh: function () {
+
+  },
+
+  /**
+   * 页面上拉触底事件的处理函数
+   */
+  onReachBottom: function () {
+
+  },
+
+  /**
+   * 用户点击右上角分享
+   */
+  onShareAppMessage: function () {
+
   }
 })
-
-
-
-

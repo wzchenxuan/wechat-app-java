@@ -1,12 +1,40 @@
 {
   "pages":[
+    "pages/mine/mine",    
+    "pages/about/about",       
+    "pages/list/list",
     "pages/index/index",
+    "pages/detial/detial",
     "pages/logs/logs"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "师大社区",
     "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "backgroundColor": "#fff",
+    "borderStyle":"white",
+    "list": [
+      {
+        "pagePath": "pages/list/list",
+        "text": "首页",
+        "iconPath":"images/home.png",
+        "selectedIconPath": "images/home.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "关于我们",
+        "iconPath": "images/about.png",
+        "selectedIconPath": "images/about.png"
+      },
+    {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "images/about.png",
+        "selectedIconPath": "images/about.png"
+    }
+    ]
   }
 }

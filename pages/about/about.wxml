@@ -1,0 +1,22 @@
+<!--about.wxml-->
+<view class="about">
+<!--轮播图-->
+<swiper indicator-dots="{{indicatorDots}}"
+    autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" width="355" height="150"/>
+      </swiper-item>
+    </block>
+ </swiper>
+ 
+    <view> <image src="{{image}}" class="in-img" background-size="cover"    model="scaleToFill"></image></view>
+    <view class="about-title">{{title}}</view>
+    <view class="about-intro">{{intro}}</view>
+
+    <view class="about-conway">
+    <view>联系方式</view>
+    <view>联系电话：{{contab}}</view>
+    <view>联系地址：{{address}}</view>
+    </view>
+</view>

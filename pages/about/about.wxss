@@ -1,0 +1,8 @@
+/*标题样式*/
+.about-title {text-align: center;margin: 20px 0;font-size: 22px;font-weight: bold;}
+/*图片样式*/
+.in-img {display: block;width: 124px;height: 124px;margin: 20px auto 0;}
+/*介绍样式*/
+.about-intro {text-indent: 2em;font-size: 17px;margin:0 24px;line-height: 2;text-align:justify; text-justify:inter-ideograph}
+/*联系方式样式*/
+.about-conway {font-size: 16px;line-height: 2;text-indent: 2em;}

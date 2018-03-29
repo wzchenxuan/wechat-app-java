@@ -1,0 +1,100 @@
+/* pages/mine/mine.wxss */
+
+.mine-head {
+    height: 516rpx;
+}
+
+.mine-head-right {
+    text-align: right;
+    margin-right: 32rpx;
+    font-size: 34rpx;
+    color: #C2B282;
+}
+
+.mine-head-photo image {
+    width: 164rpx;
+    height: 164rpx;
+    margin-bottom: 40rpx;
+    border-radius: 50%;
+}
+
+.username {
+    font-size: 36rpx;
+    color: #444;
+    margin-bottom: 72rpx;
+}
+
+.mine-lt,
+.mine-rt {
+    width: 375rpx;
+}
+.cline {
+    margin-left: 80rpx;
+    color: #999;
+}
+.mine-lt-times,
+.mine-account {
+    font-size: 34rpx;
+    color: #444;
+    text-align: center;
+    margin-left: 60rpx;
+}
+
+.mine-lt-time,
+.mine-account-1 {
+    font-size: 24rpx;
+    color: #b3b3b3;
+    text-align: center;
+    margin-left: 60rpx;
+}
+
+.jiantou {
+    font-size: 34rpx;
+    color: #b3b3b3;
+    margin-right: 28rpx;
+}
+
+.username-xinxi:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 516rpx;
+    border-top: 10rpx solid #F6F6F6;
+}
+
+.mine-bd {
+    margin-top: 40rpx;
+}
+.mine-bd-items {
+    margin-bottom: 64rpx;
+}
+.mine-bd image {
+    width: 40rpx;
+    height: 40rpx;
+}
+.mine-images, .list {
+    margin-left: 34rpx;
+}
+.mine-images {
+    margin-top: 6rpx;
+}
+.list {
+    width: 222rpx;
+    font-size: 34rpx;
+    color: #444;
+}
+
+.mine-bd-kongge {
+    text-align: right;
+    width: 351rpx;
+    font-size: 34rpx;
+    color: #b3b3b3;    
+}
+.mine-bd-jiantou {
+    width: 41rpx;
+    text-align: right;
+    color: #b3b3b3;    
+    font-size: 34rpx;
+    /* margin-left: 450rpx;   */
+}
